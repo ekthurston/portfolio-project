@@ -1,0 +1,36 @@
+:root {
+  --branding-colour: #6c63ff;
+  --bg-colour: #f9f7fe;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+.hero {
+  text-align: center;
+  background-color: var(--bg-colour);
+  padding: 160px 20px;
+}
+
+.hero h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  color: #272142;
+}
+.btn-branding {
+  background-color: var(--branding-colour);
+  color: white;
+  border-radius: 4px;
+  padding: 14px 26px;
+  font-size: 18px;
+}
