@@ -40,14 +40,15 @@ h1 {
   background-color: var(--bg-colour);
   border-color: var(--branding-colour);
 }
+.description {
+  padding: 120px 60px;
+}
 
 @media (max-width: 900px) {
   .hero,
   h2,
-  p,
-  .secondary-btn-branding {
+  p {
     text-align: center;
-    display: block;
   }
   h1 {
     font-size: 56px;
@@ -55,5 +56,9 @@ h1 {
   .btn-branding {
     padding: 10px 20px;
     font-size: 14px;
+  }
+  .description {
+    padding: 0;
+    text-align: center;
   }
 }
