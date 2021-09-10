@@ -34,3 +34,26 @@ h1 {
   padding: 14px 26px;
   font-size: 18px;
 }
+.secondary-btn-branding {
+  border-radius: 4px;
+  padding: 10px 20px;
+  background-color: var(--bg-colour);
+  border-color: var(--branding-colour);
+}
+
+@media (max-width: 900px) {
+  .hero,
+  h2,
+  p,
+  .secondary-btn-branding {
+    text-align: center;
+    display: block;
+  }
+  h1 {
+    font-size: 56px;
+  }
+  .btn-branding {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
