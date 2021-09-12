@@ -1,6 +1,7 @@
 :root {
-  --branding-colour: #6c63ff;
+  --branding-colour: #655ef8;
   --bg-colour: #f9f7fe;
+  --footer-branding-colour: #b9b5fa;
 }
 
 h1,
@@ -41,10 +42,25 @@ h1 {
   border-color: var(--branding-colour);
 }
 .description {
-  padding: 120px 60px;
+  padding: 100px 40px;
+}
+footer {
+  font-size: 15px;
+  margin-top: 30px;
 }
 
-@media (max-width: 900px) {
+.footer-branding {
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-size: 12px;
+  background-color: var(--bg-colour);
+  border-color: var(--footer-branding-colour);
+}
+.footer-icon {
+  font-size: 25px;
+}
+
+@media (max-width: 700px) {
   .hero,
   h2,
   p {
