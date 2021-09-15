@@ -2,6 +2,7 @@
   --branding-colour: #655ef8;
   --bg-colour: #f2edfd;
   --footer-branding-colour: #b3affa;
+  --font-branding: #120d27;
 }
 
 h1,
@@ -21,12 +22,13 @@ h1 {
   text-align: center;
   background-color: var(--bg-colour);
   padding: 160px 20px;
+  color: var(--font-branding);
 }
 
 .hero h2 {
   font-family: "Poppins", sans-serif;
   font-size: 24px;
-  color: #272142;
+  color: var(--font-branding);
 }
 .btn-branding {
   background-color: var(--branding-colour);
@@ -53,9 +55,11 @@ h1 {
   padding: 120px 60px;
   background-color: var(--bg-colour);
   border-radius: 10px;
+  color: var(--font-branding);
 }
 .content h1 {
   font-size: 64px;
+  padding-bottom: 50px;
 }
 .content h3 {
   font-size: 18px;
@@ -64,9 +68,13 @@ h1 {
 }
 .content-container {
   padding: 160px 20px;
+  background-color: white;
 }
 .about-me-img {
   border-radius: 15px;
+}
+.content p {
+  margin: 0 70px;
 }
 
 @media (max-width: 700px) {
