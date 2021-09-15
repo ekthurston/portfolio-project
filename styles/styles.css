@@ -52,7 +52,7 @@ h1 {
 }
 
 .content {
-  padding: 120px 60px;
+  padding: 80px 60px;
   background-color: var(--bg-colour);
   border-radius: 10px;
   color: var(--font-branding);
@@ -68,13 +68,11 @@ h1 {
 }
 .content-container {
   padding: 160px 20px;
-  background-color: white;
 }
 .about-me-img {
   border-radius: 15px;
 }
 .content p {
-  margin: 0 70px;
 }
 
 @media (max-width: 700px) {
