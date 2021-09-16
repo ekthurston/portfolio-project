@@ -17,6 +17,9 @@ h6 {
 h1 {
   font-size: 84px;
 }
+img {
+  border-radius: 50px;
+}
 
 .hero {
   text-align: center;
@@ -57,20 +60,31 @@ h1 {
   border-radius: 10px;
   color: var(--font-branding);
 }
+.content-work {
+  padding: 40px 60px;
+  background-color: var(--bg-colour);
+  border-radius: 10px;
+  color: var(--font-branding);
+  margin-bottom: 50px;
+}
 .content h1 {
   font-size: 64px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
+
 .content h3 {
   font-size: 18px;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
 }
-.content-container {
-  padding: 160px 20px;
+
+.content h5 {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
 }
-.about-me-img {
-  border-radius: 15px;
+.content-container {
+  padding: 160px 20px 100px 20px;
 }
 .fab,
 .far {
@@ -81,6 +95,10 @@ h1 {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
 }
+.crafts-no-images {
+  display: none;
+}
+
 @media (max-width: 700px) {
   .hero {
     padding: 80px 20px;
@@ -116,5 +134,14 @@ h1 {
   }
   .content-container {
     padding: 60px 20px;
+  }
+  .crafts img {
+    display: none;
+  }
+  .crafts-no-images {
+    display: inline-block;
+  }
+  .crafts-with-images {
+    display: none;
   }
 }
